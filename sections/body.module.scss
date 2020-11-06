@@ -1,26 +1,3 @@
 .row {
   margin-bottom: 2rem;
 }
-.serviceList {
-  list-style: none;
-  padding: 0;
-  li {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 8px 0;
-    border-bottom: 1px solid #b9b9b9;
-    &:last-child {
-      border: none;
-    }
-    p {
-      margin: 0;
-    }
-  }
-}
-.chartContainer {
-  height: 15rem;
-}
-.chartAlign {
-  margin-top: 2rem;
-}
