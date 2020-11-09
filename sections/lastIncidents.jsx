@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 import { CheckCircle, Visibility, Error } from "@material-ui/icons";
 export const LastIncidents = () => {
   return (
-    <div>
+    <div className="mt-4">
       <h3>Últimos Incidentes</h3>
       <Card className="mt-4 pt-4">
         <Card.Body>
@@ -13,7 +13,7 @@ export const LastIncidents = () => {
                 <CheckCircle
                   style={{
                     color: "#4AD991",
-                    fontSize: "3rem",
+                    fontSize: "2.5rem",
                   }}
                 />
               </div>
@@ -31,7 +31,7 @@ export const LastIncidents = () => {
                 <Visibility
                   style={{
                     color: "#81C9FF",
-                    fontSize: "3rem",
+                    fontSize: "2.5rem",
                   }}
                 />
               </div>
@@ -48,7 +48,7 @@ export const LastIncidents = () => {
                 <Error
                   style={{
                     color: "#FFCA83",
-                    fontSize: "3rem",
+                    fontSize: "2.5rem",
                   }}
                 />
               </div>
@@ -82,7 +82,7 @@ export const LastIncidents = () => {
                 <CheckCircle
                   style={{
                     color: "#4AD991",
-                    fontSize: "3rem",
+                    fontSize: "2.5rem",
                   }}
                 />
               </div>
@@ -97,7 +97,7 @@ export const LastIncidents = () => {
                 <Visibility
                   style={{
                     color: "#81C9FF",
-                    fontSize: "3rem",
+                    fontSize: "2.5rem",
                   }}
                 />
               </div>
@@ -114,7 +114,7 @@ export const LastIncidents = () => {
                 <Error
                   style={{
                     color: "#FFCA83",
-                    fontSize: "3rem",
+                    fontSize: "2.5rem",
                   }}
                 />
               </div>

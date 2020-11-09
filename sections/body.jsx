@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import styles from "./body.module.scss";
+import styles from "../styles/body.module.scss";
 import { WhatsappSection } from "../sections/whatsappSection";
 import { ChartCarousel } from "../sections/chartCarousel";
 import { JumbotronSection } from "../sections/jumbotronSection";
